@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0px auto;
+    background: #83c5be;
+
+    padding: 20px;
+
+    border-top: 5px solid #006d77;
+    border-bottom: 5px solid #006d77;
+    border-radius: 50px;
+    
+    text-align: center;
+    color: #2b2839;
+
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px -4px #495057;
+    transition: width 2s, opacity 2s, box-shadow 2s, border 1s;
+}
+
+.avatar:hover{
+    width: 200px;
+    opacity: 0.70;
+    box-shadow: 0px 0px;
+    border: 2px solid black;
+}
+
+
+.border-blue {
+    border: 1px dotted black;
+}
